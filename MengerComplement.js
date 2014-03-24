@@ -1,6 +1,6 @@
 /*Usage**************************************************************************
 mc(2)
-menger(2, '41', '42')
+mc(2, '41', '42')
 creates the complement of a Menger sponge of depth 2 using default materials, 
 or (in the second case) using the materials 41 (=Gold ) and 42 (=Iron)
 
