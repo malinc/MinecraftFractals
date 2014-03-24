@@ -1,6 +1,6 @@
 /*Usage**************************************************************************
 mc(2)
-menger(2, '1', '2')
+mc(2, '1', '2')
 creates the complement of a Menger sponge of depth 2 using default materials, or using the
 material '1'=Stone and '2'=Grass
 
