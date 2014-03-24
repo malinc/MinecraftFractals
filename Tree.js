@@ -4,8 +4,7 @@ tree(2, '1')
 creates a tree of depth 2 using default material, 
 or (in the second case) using the material '1'=Stone
 
-The maximum depth is 7.
-tree(7) takes 547 seconds.
+The maximum depth is 6.
 ****************************************************************/
 
 var Drone = require('../drone/drone').Drone; 
@@ -31,8 +30,8 @@ Drone.extend('tree', function(depth, material){
     if ( typeof material == 'undefined' ) {
         material = '80';
     }
-    if (depth < 0 || depth > 7) {
-    	this.sign(["Try", "tree(d)", "with", "0<=d<=7"], 63);
+    if (depth < 0 || depth > 6) {
+    	this.sign(["Try", "tree(d)", "with", "0<=d<=6"], 63);
     } else {
     	this.makeTree(depth, material, Math.pow(2,depth), this);	
     }
