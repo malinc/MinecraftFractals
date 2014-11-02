@@ -8,3 +8,5 @@ Install and set up a CraftBukkit server: http://wiki.bukkit.org/Setting_up_a_ser
 Install ScriptCraft: http://scriptcraftjs.org/
 
 To run these files: download, unzip, and place the unzipped directory in the directory scriptcraft/plugins
+
+How to program the drone (in Swedish): http://www.malinc.se/programming/minecraft/programDrone.php
